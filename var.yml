@@ -12,11 +12,11 @@
       debug:
         msg: URL = {{ URL }}
 
-  - name: Demo variables from files
-    hosts: all
-    vars_files:
-      - example-vars.yml
-    tasks:
-      - name: print variable
-        debug:
-          msg: URL == {{ URL }}
+- name: Demo on Variabes from files
+  hosts: all
+  vars_files:
+    - example-vars.yml
+  tasks:
+    - name: Print variable
+      debug:
+        msg: URL == {{ URL }}
