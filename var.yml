@@ -11,6 +11,7 @@
         URL: task.example.com
       debug:
         msg: URL = {{ URL }}
+
   - name: Demo variables from files
     hosts: all
     vars_files:
