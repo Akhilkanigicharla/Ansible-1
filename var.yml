@@ -25,12 +25,7 @@
       debug:
         msg: URL == {{ URL }}
 
-- name: Demo on variables from inventory
-  hosts: all
-  tasks:
-    - name: Print variable
-      debug:
-        msg: URL == {{ URL }}
+
 
 - name: Print Fact
   hosts: all
