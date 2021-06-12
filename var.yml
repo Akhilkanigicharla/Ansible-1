@@ -24,7 +24,7 @@
  - name: Demo on variables from user input
    hosts: all
    vars-prompt:
-     -name: URL
+     - name: URL
       prmopt: Enter URL
       private: no
    tasks:
