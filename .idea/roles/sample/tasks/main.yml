@@ -1,3 +1,7 @@
 - name: Print Hello
   debug:
     msg: Hello from a Role
+
+- name: print url
+  debug:
+    msg: URL = {{ URL }}
