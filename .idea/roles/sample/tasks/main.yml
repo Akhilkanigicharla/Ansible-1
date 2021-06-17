@@ -1,0 +1,4 @@
+- name: Print hello
+  debug:
+    msg: hello from a role
+
